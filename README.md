@@ -29,6 +29,13 @@ flowchart LR
    1. Accuracy :
    2. F1-Score :
 
+## API Endpoints
+
+### Predict Disease
+
+**POST** `/predict`
+
+#### Request
 
 #### Response
 ```json
