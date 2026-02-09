@@ -36,6 +36,7 @@ flowchart LR
 **POST** `/predict`
 
 #### Request
+```image: file```
 
 #### Response
 ```json
