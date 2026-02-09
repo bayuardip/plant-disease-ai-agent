@@ -7,12 +7,16 @@ This project builds an AI-powered diagnosis system capable of identifying plant 
 
 ## System Architecture
 ```mermaid
-flowchart TD
+flowchart LR
     A[User Image]
     B[FastAPI Prediction API]
     C[Computer Vision Model]
     D[Disease Prediction]
-    E[AI Agent Reasoning (LLM)]
-    F[Diagnosis + Treatment Recommendation]
+    E[AI Agent Reasoning LLM]
+    F[Diagnosis and Treatment Recommendation]
 
-    A --> B --> C --> D --> E --> F
+    A --> B
+    B --> C
+    C --> D
+    D --> E
+    E --> F
