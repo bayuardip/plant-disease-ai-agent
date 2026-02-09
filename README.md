@@ -56,4 +56,7 @@ pip install -r requirements.txt
 ```
 
 ## Run API
-```uvicorn src.api.main:app --reloadt```
+```uvicorn src.api.main:app --reload```
+
+## Run Demo
+```streamlit run app/streamlit_app.py```
