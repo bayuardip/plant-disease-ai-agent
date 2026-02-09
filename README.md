@@ -27,4 +27,14 @@ flowchart LR
 3. Model: EfficientNet / YOLOv8
 4. Metrics
    1. Accuracy :
-   2. F1-Score : 
+   2. F1-Score :
+
+
+#### Response
+```json
+{
+  "disease": "Tomato Early Blight",
+  "confidence": 0.93,
+  "recommendation": "Apply fungicide and remove infected leaves"
+}
+
