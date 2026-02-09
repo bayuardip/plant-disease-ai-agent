@@ -1,0 +1,30 @@
+# Deep Learning
+torch
+torchvision
+timm
+
+# Computer Vision
+opencv-python
+Pillow
+numpy
+scikit-learn
+
+# API
+fastapi
+uvicorn
+python-multipart
+pydantic
+
+# LLM Agent
+openai
+langchain
+tiktoken
+
+# Demo App
+streamlit
+
+# Utilities
+pandas
+pyyaml
+python-dotenv
+requests
