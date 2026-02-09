@@ -44,12 +44,16 @@ flowchart LR
   "confidence": 0.93,
   "recommendation": "Apply fungicide and remove infected leaves"
 }
-
-## Installation
 ```
+## Installation
+
 
 ```bash
 git clone https://github.com/username/ai-plant-disease-agent.git
 cd ai-plant-disease-agent
 pip install -r requirements.txt
+```
 
+## Installation
+```uvicorn src.api.main:app --reloadt
+```
