@@ -6,14 +6,13 @@ Plant disease detection is often delayed due to lack of expert availability.
 This project builds an AI-powered diagnosis system capable of identifying plant diseases from leaf images and providing actionable recommendations using an intelligent agent.
 
 ## System Architecture
-User Image
-    ↓
-FastAPI Prediction API
-    ↓
-Computer Vision Model
-    ↓
-Disease Prediction
-    ↓
-AI Agent Reasoning (LLM)
-    ↓
-Diagnosis + Treatment Recommendation
+```mermaid
+flowchart TD
+    A[User Image]
+    B[FastAPI Prediction API]
+    C[Computer Vision Model]
+    D[Disease Prediction]
+    E[AI Agent Reasoning (LLM)]
+    F[Diagnosis + Treatment Recommendation]
+
+    A --> B --> C --> D --> E --> F
