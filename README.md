@@ -23,3 +23,8 @@ flowchart LR
 ```
 ## Features 
 1. Framework: PyTorch
+2. Dataset: PlantVillage
+3. Model: EfficientNet / YOLOv8
+4. Metrics
+   1. Accuracy :
+   2. F1-Score : 
