@@ -45,3 +45,11 @@ flowchart LR
   "recommendation": "Apply fungicide and remove infected leaves"
 }
 
+## Installation
+```
+
+```bash
+git clone https://github.com/username/ai-plant-disease-agent.git
+cd ai-plant-disease-agent
+pip install -r requirements.txt
+
