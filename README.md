@@ -20,5 +20,6 @@ flowchart LR
     C --> D
     D --> E
     E --> F
-
+```
 ## Features 
+1. Framework: PyTorch
