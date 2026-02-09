@@ -55,6 +55,5 @@ cd ai-plant-disease-agent
 pip install -r requirements.txt
 ```
 
-## Installation
-```uvicorn src.api.main:app --reloadt
-```
+## Run API
+```uvicorn src.api.main:app --reloadt```
